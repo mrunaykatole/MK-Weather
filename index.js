@@ -10,7 +10,7 @@ async function getWeather(city="nagpur") {
     <h1>${data.name}</h1>
      <h3 id="main">${data.weather[0].main}</h3>
     <h2 id="temp">${data.main.temp}°C</h2>
-    <div id="sun"><h4> <img src="../Assets/icons8-sunrise-80.png" >${new Date(data.sys.sunrise * 1000).toLocaleTimeString()}</h4>
+    <div id="sun"><h4> <img src="./Assets/icons8-sunrise-80.png">${new Date(data.sys.sunrise * 1000).toLocaleTimeString()}</h4>
     <h4><img src="../Assets/icons8-sunset-80.png">${new Date(data.sys.sunset*1000).toLocaleTimeString()}</h4></div></div>`;
 
     document.getElementById('weath3').innerHTML=`<div id="first">
