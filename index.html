@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weatherApi</title>
+    <style>
+        /* #weat h2{
+            display: flex;
+            justify-content: space-between;
+        } */
+
+        /* #containx{
+            height: 100px;
+            width:100px;
+            border-radius: 50%;
+            background-color: yellowgreen;
+        } */
+        /* #col{
+            height: 2px;
+            width: 2px;
+            border-radius: 50%;
+            animation:mk 5s alternate infinite;
+        } */
+        
+        /* #contain {
+            display: flex;
+            justify-content: space-evenly;
+        }
+       
+        #container {
+            text-align: center;
+           
+        } */
+        /* #container:hover{
+            animation: circle 1s 2s infinite;
+            animation-direction: alternate;
+        }
+        @keyframes circle {
+            0%{
+                transform: rotate(0deg);
+            }
+            100%{
+                transform: rotate(360deg);
+            }
+        } */
+         #container{
+            text-align: center;
+         }
+         #contain{
+            height: 400px;
+            width: 70%;
+            border: 2px solid black;
+            border: none;
+            box-shadow: 2px 5px 10px  black;
+            border-radius: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            position: relative;
+            top: 50px;
+         }
+         #col{
+            display: flex;
+            /* flex-direction: column; */
+            justify-content: center;
+         }
+         #weath{
+            position: relative;
+            bottom: 30px;
+         }
+         #weath input{
+            /* border-radius: 20px; */
+            border: none;
+            height: 30px;
+            background-color: antiquewhite;
+            color: black;
+         }
+         #weath button{
+            /* border-radius: 10px; */
+            height: 35px;
+            border: none;
+            border-radius: 50%;
+            background-color: antiquewhite;
+         }
+         #weath2{
+            /* text-align: center; */
+            display: flex;
+            align-items: center;
+         }
+         #weath2 h1{
+            font-size: 40px;
+            position: relative;
+            bottom: 10px;
+         }
+         #weath2 h2{
+           font-size: 50px;
+           font-weight: 700;
+          position: relative;
+          bottom: 40px;
+
+         }
+         #weath2 img{
+            width: 35px;
+            position: relative;
+            bottom: 10px;
+         }
+         #disc{
+            font-size: 12px;
+            display: flex;
+            justify-content: space-evenly;
+            gap: 30px;
+         }
+         #main img{
+            width: 70px;
+            
+         }
+         #sun {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            position: relative;
+            bottom: 30px;
+            gap: 40px;
+         }
+         #sun img{
+            width: 40px;
+            position: relative;
+            top: 10px;
+         }
+         #weatha{
+            display: flex;
+            justify-content: space-around;
+            gap: 70px;
+         }
+         #weath3{
+            display: flex;
+            flex-direction: column;
+            
+            
+         }
+         #weath3 #second{
+            display: flex;
+            /* flex-direction: column; */
+            gap: 30px;
+            
+         }
+         #weath3 #second img{
+            width: 30px;
+         }
+         #weath3 #first{
+            display: flex;
+           gap: 30px;
+
+         }
+         #weath3 #first p{
+            text-align: center;
+         }
+         #weath3 #second p{
+            text-align: center;
+         }
+         #weath3 #first img{
+            width: 30px;
+         }
+         #weath3 #third{
+            display: flex;
+            /* flex-direction: column; */
+            gap: 50px;
+            
+         }
+         #weath3 #third img{
+            width: 30px;
+         }
+         #weath3 #third p{
+            text-align: center;
+         }
+         @media  (max-width:480px) {
+            #contain{
+               height: 900px;
+            }
+            #weatha{
+               flex-direction: column;
+              
+            }
+            #weath2 h1{
+               font-size: 30px;
+               text-align: center;
+               /* position: relative; left: 40px; */
+            }
+            #weath2 h3 {
+               /* position: relative; left:
+               60px; */
+               text-align: center;
+            }
+            #weath2 #temp{
+               font-size: 30px;
+               text-align: center;
+               /* position: relative; left: 25px; */
+            }
+            #weath2 #sun{
+               /* position: relative; left: 20px; */
+               text-align: center;
+            }
+            #weath3 {
+              text-align: center;
+               
+            }
+         }
+    </style>
+</head>
+
+<body>
+    <!-- style="background-image: url(../Assets/f76810fd-fc8c-4146-8f2a-2fbfcb7f571d.jpg);background-repeat: no-repeat;width:1400px; height: 700px;" -->
+    
+    <div id="container">
+        <h1>MK-Weather-Forcast</h1>
+        
+    </div>
+    <div id="col">
+    <div id="contain">
+        
+        <div id="weath">
+           
+        </div>
+        <div id="weatha">
+        <div id="weath2">
+
+            </div>
+            <div id="weath3">
+
+            </div>
+           
+        </div>
+    </div>
+    </div>
+
+    <!-- <script src="weatherApi.js"></script> -->
+    <script src="index.js"></script>
+</body>
+
+</html>
